@@ -1,12 +1,10 @@
-import { useState } from 'react'
+import { MainContent } from "./components/MainContent";
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="container mx-auto">
-      <h1 className='bg-red-500'>testing</h1>
-    </div>
+      <MainContent />
   )
 }
 
-export default App
+export default App;
